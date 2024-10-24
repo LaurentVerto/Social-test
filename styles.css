@@ -48,3 +48,81 @@ a:hover {
     inset -20px -20px 60px #ffffff;
      scale: 1.05;
 }
+
+
+
+/* fin header */
+
+
+.container-post {
+    width: 100%;
+    max-height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    overflow-y: auto;
+    gap: 50px;
+    padding: 25px;
+}
+
+.post {
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 15px;
+    gap: 15px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+
+.post>img {
+    height: 80%;
+    width: 100%;
+    border-radius: 5px;
+    object-fit:cover;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-details{
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.post-actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    justify-self: flex-end;
+}
+
+.post-actions img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.post-actions img:hover{
+    scale: 1.1;
+    transition: all 0.1s linear;
+}
+
+
+.post-personne{
+    width: 65%;
+
+}
+
+/* fin post */
